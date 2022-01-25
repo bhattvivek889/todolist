@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(227, 220, 245);
+    text-align: center;
+    margin-left:0px;
+}
+.head{
+    font-size: 60px;
+    color:rgb(120, 16, 151);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form1 input{
+    height: 50px;
+    text-align: center;
+    border: 5px solid rgb(129, 115, 192);
+    background-color: rgb(204, 190, 241);
+    border-radius:10px;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(101, 37, 161);
+}
+.form1 button{
+    border: 5px solid rgb(129, 115, 192);
+    background-color: rgb(204, 190, 241);
+    border-radius:10px;
+    font-size: 50px;
+    margin-top:20px;
+    color: rgb(101, 37, 161);
+}
+.form1 button:hover,input:hover{
+    background-color: aliceblue;
+}
+.lilist{
+    font-size: 30px;
+    color: rgb(79, 53, 194);
+    margin-bottom: 0px;
+}
+::placeholder{
+    color:rgb(101, 37, 161);
+}
+input:focus{
+    outline:none;
+}
+.div3{
+    margin:auto;
+    padding-bottom: 0px;
+    word-wrap: break-word;
+    width: 50%;
+    background-color: rgb(193, 157, 226);
+}
+.div2 button{
+    border: 5px solid rgb(129, 115, 192);
+    background-color: rgb(204, 190, 241);
+    color: rgb(101, 37, 161);
+}
